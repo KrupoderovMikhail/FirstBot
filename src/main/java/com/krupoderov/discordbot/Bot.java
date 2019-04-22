@@ -1,7 +1,6 @@
 package com.krupoderov.discordbot;
 
-import com.krupoderov.discordbot.events.CategoryCreate;
-import com.krupoderov.discordbot.events.HelloEvent;
+import com.krupoderov.discordbot.commands.Calculate;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 
@@ -15,7 +14,6 @@ public class Bot {
 
         JDA jda = new JDABuilder(TOKEN).build();
 
-        jda.addEventListener(new HelloEvent());
-        jda.addEventListener(new CategoryCreate());
+        jda.addEventListener(new Calculate());
     }
 }
