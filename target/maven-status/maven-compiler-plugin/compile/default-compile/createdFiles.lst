@@ -1,0 +1,3 @@
+com\krupoderov\discordbot\Bot.class
+com\krupoderov\discordbot\commands\Calculate.class
+com\krupoderov\discordbot\events\HelloEvent.class
