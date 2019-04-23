@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca7eba3-dac9-411f-8393-747c19bacbf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FirstBot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bin/workerBot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bin/workerBot.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/1.0.4/opus-java-api-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/1.0.4/opus-java-natives-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/krupoderov/1st/discordBot/FirstBot/1.0-SNAPSHOT/FirstBot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/krupoderov/1st/discordBot/FirstBot/1.0-SNAPSHOT/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/krupoderov/1st/discordBot/FirstBot/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/neovisionaries/nv-websocket-client/2.5/nv-websocket-client-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/neovisionaries/nv-websocket-client/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/3.13.0/okhttp-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/dv8tion/JDA/3.8.3_462/JDA-3.8.3_462.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/dv8tion/JDA/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/java/dev/jna/jna/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/net/sf/trove4j/trove4j/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-collections4/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/jetbrains/annotations/16.0.1/annotations-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/jetbrains/annotations/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/json/json/20160810/json-20160810.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/json/json/maven-metadata-appassembler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/maven-metadata-appassembler.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,20 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-end-column="6" />
+            <state relative-caret-position="31">
+              <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -93,9 +121,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="width" value="965" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="683" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -117,11 +146,46 @@
               <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
               <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discordbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstBot" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="FirstBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,16 +258,22 @@
       <option name="project" value="LOCAL" />
       <updated>1555949874715</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 3 - Commands. Added calculator command.">
+      <created>1555950594943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555950594943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-2" y="0" width="772" height="840" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28255033" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.5997191" />
       <window_info id="DB Browser" order="3" weight="0.32911393" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Project Explorer" order="5" />
@@ -214,12 +284,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3282123" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49929675" visible="true" weight="0.3952514" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49929675" weight="0.3952514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.8276836" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007032" side_tool="true" weight="0.3997175" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3282123" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -258,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krupoderov/discordbot/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krupoderov/discordbot/commands/Calculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -272,17 +335,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krupoderov/discordbot/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
         </state>
       </provider>
     </entry>
