@@ -1,6 +1,7 @@
 package com.krupoderov.discordbot;
 
 import com.krupoderov.discordbot.commands.Calculate;
+import com.krupoderov.discordbot.commands.InviteCommand;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 
@@ -15,5 +16,6 @@ public class Bot {
         JDA jda = new JDABuilder(TOKEN).build();
 
         jda.addEventListener(new Calculate());
+        jda.addEventListener(new InviteCommand());
     }
 }

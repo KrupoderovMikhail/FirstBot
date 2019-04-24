@@ -7,6 +7,19 @@
   <build>
     <plugins>
       <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+              <mainClass>com.krupoderov.discordbot.Bot</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.1</version>
         <executions>
@@ -18,7 +31,10 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.krupoderov.discordbot.Bot</mainClass>
+                  <manifestEntries>
+                    <Main-Class>com.krupoderov.discordbot.Bot</Main-Class>
+                    <Build-Number>1</Build-Number>
+                  </manifestEntries>
                 </transformer>
               </transformers>
             </configuration>
